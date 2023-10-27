@@ -23,6 +23,8 @@ main {
     transition: 0.4s;
     cursor: pointer;
     padding: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .produto:hover {
