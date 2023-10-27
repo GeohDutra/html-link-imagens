@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+.caixa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    border-radius: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.produto:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.produto img {
+    width: 60%;
+}
+
+.produto2 {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    border-radius: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.produto2:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.produto2 img {
+    width: 60%;
+}
+
+nav {
+    height: 66px;
+    background-color: rgb(68, 68, 68);
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 66px;
+    display: grid;
+    place-items: center;
+    transition: 0.4s;
+}
+
+.navbar li a:hover {
+    background-color: rgb(115, 115, 115);
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+h2 {
+    font-size: 25pt;
+}
+
+.localizacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem-localizacao {
+    height: 200px;
+}
+
+footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 40px 0;
+}
